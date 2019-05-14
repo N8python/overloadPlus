@@ -1,6 +1,6 @@
 # Import
 ```js
-improt o from "./overloadPlus.js";
+import o from "./overloadPlus.js";
 ```
 # Setup 
 ```js
