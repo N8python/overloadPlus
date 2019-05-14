@@ -3,6 +3,7 @@
 improt o from "./overloadPlus.js";
 ```
 # Setup 
+```js
 class myClass {
   valueOf(){
     return o.$overload(this);
@@ -12,10 +13,13 @@ class myClass {
     return // The result of the addition
   }
 }
+```
 
 # Use
 
+```js
 o.$p(new myClass1() + new myClass()); // $plus method is called behind the scenes.
+```
 
 # Limitations
 
